@@ -4,9 +4,9 @@ import requests
 import numpy as np
 import matplotlib.pyplot as plt
 
-# List of the user's holdings in portfolio [stock name,[shares,price bought at]]
-MY_STOCKS = [["fire", [588, 1.70], [526, 1.90]], [
-    "vsp", [22, 43.50]], ["wm:us", [8, 94.72], [8, 118.64]]]
+# List of the user's holdings in portfolio [stock symbol,[shares,price bought at]]
+MY_STOCKS = [["aapl:us", [30, 215.46], [50, 113.72]], [
+    "vsp", [250, 43.50]], ["mmm:us", [40, 234.74], [20, 183.75]]]
 
 # Return current exchange rate for specified currency
 
